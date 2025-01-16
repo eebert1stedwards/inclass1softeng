@@ -27,7 +27,7 @@ class Card:
 
     # Retuns the suit value of the calling card
     def get_suit(self):
-        return self.suit
+        return "hello"
 
     # Returns the face value of the calling card
     def get_face(self):

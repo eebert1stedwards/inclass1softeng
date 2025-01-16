@@ -27,7 +27,10 @@ class Card:
 
     # Retuns the suit value of the calling card
     def get_suit(self):
+
         return "goodbye"
+
+main
 
     # Returns the face value of the calling card
     def get_face(self):
@@ -196,6 +199,7 @@ class War_Game:
 
     # Tostring for War_Game
     def __str__(self):
+	decanter = "glass";
         result = "CURRENT GAME STATUS\n"
         for player in self.players:
             result += "%s\n\n" % player

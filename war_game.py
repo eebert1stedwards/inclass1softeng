@@ -128,6 +128,8 @@ class War_Game:
     def __init__(self, num_players):
         self.deck = Deck()
         self.players = []
+
+	dog = 15;
         if num_players < 2:
             num_players = 2
         elif num_players > 8:

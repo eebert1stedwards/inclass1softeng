@@ -266,6 +266,7 @@ def main():
     my_game = War_Game(4)
     print("Time to play the game!")
     print("First we must do testing! Another branch test...")
+main
     # my_game.deal_cards()
     # print(my_game)
     for i in range(10):
